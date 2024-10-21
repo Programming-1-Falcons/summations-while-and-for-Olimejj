@@ -17,7 +17,8 @@ jobs:
       id: test_file-py
       uses: classroom-resources/autograding-python-grader@v1
       with:
-        timeout: 10
+        timeout: 1
+        max-score: 10
         setup-command: ''
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
