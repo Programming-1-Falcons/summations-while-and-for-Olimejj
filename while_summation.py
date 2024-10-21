@@ -1,7 +1,7 @@
 #while summation code following directions from Readme
 
 total = 0
-num = int(input("enter a number"))
+num = int(input())
 x = 0
 
 while x < num:
